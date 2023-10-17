@@ -33,12 +33,17 @@ header{
 
 }
 
-.logo{
+
+.name{
     display: flex;
     align-items: center;
-    color: black;
     font-size: 28px;
     font-weight: bold;
+}
+
+.name i{
+    font-size: 32px;
+    margin-right: 5px;
 }
 
 .navigation{
@@ -46,16 +51,89 @@ header{
 }
 
 .navigation a{
-    color: azure;
-    font-size: var(--p-font);
     font-weight: 500;
     margin: 0 30px;
     transition: a .55s ease;
 }
 
-.navegação a:hover{
+.navigationa:hover{
     color: var(--main-color);
 
 }
+
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 45px;
+    height: auto;
+}
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.section{
+
+    padding: 0 15%;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.home-text h1{
+    font-size: var(--h1-font);
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.home-text h5{
+    color: #ffffff99;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.home-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+
+.home-img img{
+    max-width: 100%;
+    width: 28rem;
+    height: auto;
+    margin-left: 25%;
+}
+
+
+
 
 
