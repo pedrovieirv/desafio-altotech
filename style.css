@@ -138,10 +138,14 @@ h4{
 
 .home-img img{
     max-width: 100%;
-    width:65%;
+    width:60%;
     height: auto;
     margin-left: 25%;
     border-radius: 19px;
+}
+
+.btn{
+    display: flex;
 }
 
 
