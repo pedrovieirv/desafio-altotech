@@ -12,12 +12,11 @@
     --tex-color: #fff;
     --other-color: #fcfcfc;
     --h1-font: 4rem;
-    --p-font: 1rem;
 }
 
 body{
 
-    background-color: #7e919d;
+    background-color: #dbebf5;
 }
 
 header{
@@ -112,7 +111,7 @@ header{
 }
 
 .home-text h5{
-    color: #ffffff99;
+    color: #0b0b0b99;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 60px;
@@ -124,13 +123,25 @@ header{
     letter-spacing: 2px;
     margin-bottom: 35px;
 }
+.home-text h3 span{
 
+    font-size:20px;
+    background-color: rgb(244, 174, 105);
+    color: #d47f00;
+}
+
+h4{
+    font-size: 19px;
+    color: black;
+    
+}
 
 .home-img img{
     max-width: 100%;
-    width: 28rem;
+    width:65%;
     height: auto;
     margin-left: 25%;
+    border-radius: 19px;
 }
 
 
