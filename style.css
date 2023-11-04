@@ -2,153 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    list-style: none;
-}
-
-:root{
-    --bg-color:var(--bg-color) #ffffff;
-    --tex-color: #fff;
-    --other-color: #fcfcfc;
-    --h1-font: 4rem;
-}
-
-body{
-
-    background-color: #dbebf5;
-}
-
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 8%;
-
-}
-
-
-.name{
-    display: flex;
-    align-items: center;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.name i{
-    font-size: 32px;
-    margin-right: 5px;
-}
-
-.navigation{
-    display: flex;
-}
-
-.navigation a{
-    font-weight: 500;
-    margin: 0 30px;
-    transition: a .55s ease;
-}
-
-.navigationa:hover{
-    color: var(--main-color);
-
-}
-
-
-.header-icons{
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    width: 45px;
-    height: auto;
-}
-
-#menu{
-    font-size: 35px;
-    color: var(--tex-color);
-    z-index: 10001;
-    cursor: pointer;
-}
-
-.header-icons i{
-    margin-right: 25px;
-    font-size: 28px;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-
-.header-icons i:hover{
-    transform: translateY(-5px);
-    color: var(--main-color);
-}
-
-.section{
-
-    padding: 0 15%;
-}
-.home{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2rem;
-}
-
-.home-text h1{
-    font-size: var(--h1-font);
-    line-height: 1.2;
-    margin-bottom: 2px;
-}
-
-.home-text h5{
-    color: #0b0b0b99;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 60px;
-}
-
-.home-text h3{
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 35px;
-}
-.home-text h3 span{
-
-    font-size:20px;
-    background-color: rgb(244, 174, 105);
-    color: #d47f00;
-}
-
-h4{
-    font-size: 19px;
-    color: black;
     
 }
+.icon-menu{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding: 0,5%;
+   height: 86px;
 
-.home-img img{
-    max-width: 100%;
-    width:60%;
-    height: auto;
-    margin-left: 25%;
-    border-radius: 19px;
 }
 
-.btn{
+.part-esq{
     display: flex;
+    gap: 49px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 25px
 }
 
 
+nav ul li a{
+   color: rgb(57, 57, 57); 
+   text-decoration: none;
+}
 
+.part-drt{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.avatar{
+    width: 45px;
+}
 
 
